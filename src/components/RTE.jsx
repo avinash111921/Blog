@@ -16,7 +16,7 @@ const RTE = ({
         control={control}
         render={({field : {onChange}}) => (
             <Editor
-            apiKey='m2gjlxwan5lstcq6p6m9dczu3xyzi1vcp9z869hl16z4fe73'
+            apiKey={import.meta.env.API_KEY}
             initialValue={defaultValue}
             init={{
                 selector: 'textarea',
